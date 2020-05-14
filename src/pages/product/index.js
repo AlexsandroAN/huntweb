@@ -9,6 +9,7 @@ export default class Product extends Component {
         product: {},
     };
 
+
     async componentDidMount() {
         const { id } = this.props.match.params;
 
